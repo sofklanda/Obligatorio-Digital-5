@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>ODS 11 - Sofia Landa</title>
+</head>
+
+<body>
+    <header>
+        <img src="imgs/Logo.png" alt="logo">
+        <a href="#"><img src="imgs/menu.svg" alt="abrir menú" id="hambur"></a>
+        <nav>
+            <a href="#formulario"> Participa</a>
+            <a href="#gridImg"> Áreas sostenibles</a>
+            <a href="#clavesSostenibles"> Claves sostenibles</a>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>ODS 11: Ciudades y comunidades sostenibles</h1>
+            <p>Las ciudades concentran oportunidades, innovación y desarrollo, pero también enfrentan desafíos como la
+                contaminación, el crecimiento desordenado y la falta de acceso equitativo a los servicios urbanos. El
+                Objetivo de Desarrollo Sostenible 11 busca construir comunidades más inclusivas, seguras, resilientes y
+                sostenibles para todas las personas.</p>
+        </section>
+        <section id="formulario">
+            <h2>Sumate al cambio</h2>
+            <p>Completá el formulario y descubrí cómo podés contribuir desde tu comunidad.</p>
+            <form>
+                <input type="email" id="correo" name="correo" placeholder="correo@gmail.com" required>
+                <select id="tema" name="tema">
+                    <option value="selecciona">Selecciona una opción</option>
+                    <option value="espacios-verdes">Espacios verdes</option>
+                    <option value="movilidad">Movilidad sostenible</option>
+                    <option value="vivienda-accesible">Vivienda accesible</option>
+                    <option value="reciclaje">Reciclaje urbano</option>
+                </select>
+                <button type="submit" id="participar">Participar</button>
+            </form>
+        </section>
+        <section id="gridImg">
+            <div><img src="imgs/parque-urbano.jpg" alt="parque urbano"></div>
+            <div><img src="imgs/transporte-sostenible.jpg" alt="transporte sostenible bicicletas">
+            </div>
+            <div class="imgDestacada"><img src="imgs/ciudad-inteligente.jpg" alt="ciudad inteligente y verde">
+                <div id="gridImgText1">
+                    <h2>Construyendo ciudades sostenibles</h2>
+                    <a href="#">Conocer más</a>
+                </div>
+            </div>
+            <div class="imgDestacada imgOculta"><img src="imgs/comunidad.jpg" alt="comunidad en parque">
+                <div id="gridImgText2">
+                    <h2>Comunidades sostenibles</h2>
+                    <p>Las ciudades sostenibles fortalecen los lazos comunitarios a través de espacios públicos donde
+                        las personas pueden reunirse, convivir y construir vida en común.</p>
+                </div>
+            </div>
+            <div><img src="imgs/viviendas.jpg" alt="viviendas urbanas"></div>
+            <div><img src="imgs/arquitectura-sostenible.jpg" alt="arquitectura sostenible"></div>
+        </section>
+        <section id="clavesSostenibles">
+            <h2>Claves para ciudades más sostenibles</h2>
+            <div id="gridArticle">
+                <article>
+                    <a id="etiqueta1">Energía verde</a>
+                    <img src="imgs/energia-limpia.jpg" alt="paneles solares en terraza">
+                    <h3>Energía limpia</h3>
+                    <p>Las energías renovables reducen emisiones contaminantes y promueven ciudades más sostenibles actualmente.</p>
+                    <a href="#" class="buttons">Leer más</a>
+                </article>
+                <article>
+                    <a id="etiqueta2">Inclusión urbana</a>
+                    <img src="imgs/silla-de-ruedas.jpg" alt="persona en silla de ruedas en un parque">
+                    <h3>Inclusión</h3>
+                    <p>Espacios accesibles fomentan participación ciudadana, integración social y bienestar para todos.</p>
+                    <a href="#" class="buttons">Leer más</a>
+                </article>
+                <article>
+                    <a id="etiqueta3">Aire limpio</a>
+                    <img src="imgs/auto-electrico.jpg" alt="auto eléctrico">
+                    <h3>Aire limpio</h3>
+                    <p>Transportes sostenibles disminuyen contaminación urbana, mejoran salud pública y calidad ambiental.</p>
+                    <a href="#" class="buttons">Leer más</a>
+                </article>
+
+                <div id="articlesPequeños">
+                    <article>
+                        <img src="imgs/jardin-con-lluvia.jpg" class="imgOculta" alt="jardín con lluvia">
+                        <h3>Gestión del agua</h3>
+                        <p>Sistemas eficientes permiten conservar recursos hídricos y enfrentar desafíos climáticos futuros.</p>
+                        <a href="#" class="buttons">Leer más</a>
+                    </article>
+                    <article>
+                        <img src="imgs/colaboracion-ciudadana.jpg" class="imgOculta" alt="personas tocando un árbol">
+                        <h3>Colaboración</h3>
+                        <p>La participación comunitaria fortalece proyectos sostenibles y mejora entornos urbanos compartidos.</p>
+                        <a href="#" class="buttons">Leer más</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Redes sociales</p>
+        <nav>
+            <a href=""><img src="imgs/linkedin.svg" alt="ícono de linkedin"></a>
+            <a href=""><img src="imgs/twitter.svg" alt="ícono de twitter"></a>
+            <a href=""><img src="imgs/instagram.svg" alt="ícono de instagram"></a>
+            <a href=""><img src="imgs/whatsapp.svg" alt="ícono de whatsapp"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
